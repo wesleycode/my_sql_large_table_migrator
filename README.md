@@ -11,3 +11,5 @@ How to use
 5) Run "dev" script to migrate
 
 The app will take a batch of your rows to insert without create a hell inside your server
+
+Ps.: Yep, it works on "mdl_logstore_standard_log", you can do all this steps to reduce the size of your table;
