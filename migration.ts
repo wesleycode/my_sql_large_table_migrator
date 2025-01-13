@@ -15,7 +15,7 @@ async function migrateTableInBatches(config: MigrationConfig): Promise<void> {
     let connection: Connection | null = null;
 
     try {
-        
+
         connection = await mysql.createConnection({
             host: config.host,
             user: config.user,
@@ -120,12 +120,12 @@ async function migrateTableInBatches(config: MigrationConfig): Promise<void> {
 // Exemplo de uso
 async function main() {
     const config: MigrationConfig = {
-        host: '179.188.16.118',
-        user: 'abdconst2',
-        password: 'abdco3br',
-        database: 'abdconst2',
-        sourceTable: 'mdl_logstore_standard_log',
-        targetTable: 'new_log',
+        host: 'DATA HERE',
+        user: 'DATA HERE',
+        password: 'DATA HERE',
+        database: 'DATA HERE',
+        sourceTable: 'DATA HERE',
+        targetTable: 'DATA HERE',
         batchSize: 10000,
         isTestRun: false  // Mude para false para fazer a migração completa
     };
